@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.RAY_WRAPPER_REGISTER
+{
+	margin-top: 20px;
+	color: black;
+	overflow: hidden;
+}
+.RAY_WRAPPER_REGISTER input[type="text"], .RAY_WRAPPER_REGISTER input[type="password"]
+{
+	font-size: .9em;
+	width: 100%;
+	height: 32px;
+	box-sizing: border-box;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 0px;
+	background-color: rgba(255, 255, 255, 0.8); /*rgba(204, 255, 0, 0.6);*/
+}
+.errorPanel
+{
+	background-color: #FF9494;
+	border-color: rgba(0,0,0,.2);
+	padding: 10px 20px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.RAY_WRAPPER_REGISTER .REGISTER-ONE-STEP, .RAY_WRAPPER_REGISTER .REGISTER-TWO-STEP
+{
+	opacity: 0;
+	max-height: 0;
+	height: 0;
+	overflow: hidden;
+	transition: opacity .25s ease-in;
+}
+.RAY_WRAPPER_REGISTER .REGISTER-VISIBLE
+{
+    max-height: 999px;
+    height: auto;
+    opacity: 1;
+}
+.BTN-ACTION
+{
+	font-weight: bold;
+	border-radius: 3px;
+	
+}
